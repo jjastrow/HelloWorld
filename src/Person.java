@@ -52,4 +52,14 @@ public class Person {
     public boolean isValidName(String name) {
         return name.contains(" ");
     }
+
+    @Override
+    public String toString() {
+        return "Person{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", isAlive=" + isAlive +
+                ", address='" + address + '\'' +
+                '}';
+    }
 }
