@@ -7,10 +7,6 @@ public class Person {
     public boolean isAlive = true;
     public String address;
 
-    public Person() {
-
-    }
-
     public Person(String name, int age) {
         this(name, age, true);
     }
